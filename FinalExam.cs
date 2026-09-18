@@ -36,6 +36,7 @@ namespace C45_G80_EXAM02
             {
                 if (stopwatch.Elapsed >= Time)
                 {
+
                     Console.WriteLine("Time Out!");
                     return;
                 }
